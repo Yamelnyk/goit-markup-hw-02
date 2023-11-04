@@ -3,7 +3,7 @@ sans-serif;
 font-family: 'Roboto',
 sans-serif; */
 body {
-    font-family: "Roboto", "Helvetica Neue","Verdana", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: rgba(67, 68, 85, 1);
     background-color: #FFF;
     letter-spacing: 0.32px;
@@ -16,28 +16,34 @@ a {
     color: rgba(46, 47, 66, 1);
 }
 .logo {
-    font-family: "Raleway", "Helvetica Neue", "Verdana", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
+    color: #4d5ae5;
 }
-.logo-web {
-   color: rgba(77, 90, 229, 1);
+.logo-studio {
+   color: #2e2f42;
 }
 .nav-list .link {
     font-weight: 500;
+    line-height: 1.15;
 }
-.nav-list .link:hover, .nav-list .link:focus, .address .link:hover {
+.address .link{
+    font-style: normal;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.nav-list .link:hover, .nav-list .link:focus, .address .link:hover, .address .link:focus {
     color: rgba(64, 75, 191, 1);
 }
 .nav-list .link:active {
     text-decoration: underline;
 }
 .order, .footer {
-    /* width: 1440px;
-    height: 600px; */
     background-color: rgba(46, 47, 66, 1);
 }
 .order, .button {
@@ -49,28 +55,46 @@ a {
     line-height: 60px;
     letter-spacing: 1.12px;
     color: rgba(255, 255, 255, 1);
-    /* background-color: rgba(46, 47, 66, 1); */
+    line-height: 1.07;
 }
 .button {
+    font-family: "Roboto", sans-serif;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(77, 90, 229, 1);
     font-weight: 500;
     letter-spacing: 0.64px;
+    line-height: 1.5;
+    cursor: pointer;
 }
 .button:hover, .button:focus {
     background-color: rgba(64, 75, 191, 1);
 }
 .title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
+    line-height: 1.2;
 }
 .section-title {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 0.72px; 
+    letter-spacing: 0.72px;
+    line-height: 1.11; 
+    text-align: center;
+    text-transform: capitalize;
 }
-.footer .logo, .footer {
+.text {
+    line-height: 1.5;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-list-item {
+    background-color: #FFFFFF;
+}
+.footer, .footer .logo-studio {
     color: rgba(244, 244, 253, 1)
-}
+} 
