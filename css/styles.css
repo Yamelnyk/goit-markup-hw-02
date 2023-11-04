@@ -29,9 +29,9 @@ a {
 }
 .nav-list .link {
     font-weight: 500;
-    line-height: 1.15;
+    line-height: 1.5;
 }
-.address {
+.address .link{
     font-style: normal;
     line-height: 1.5;
     color: #434455;
