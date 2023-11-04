@@ -31,12 +31,13 @@ a {
     font-weight: 500;
     line-height: 1.5;
 }
+.address {
+font-style: normal;
+}
 .address .link{
-    font-style: normal;
     line-height: 1.5;
     color: #434455;
 }
-
 .nav-list .link:hover, .nav-list .link:focus, .address .link:hover, .address .link:focus {
     color: rgba(64, 75, 191, 1);
 }
