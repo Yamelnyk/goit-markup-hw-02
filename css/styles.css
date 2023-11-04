@@ -3,13 +3,74 @@ sans-serif;
 font-family: 'Roboto',
 sans-serif; */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Helvetica Neue","Verdana", sans-serif;
     color: rgba(67, 68, 85, 1);
     background-color: #FFF;
+    letter-spacing: 0.32px;
 }
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+}
+.logo {
+    font-family: "Raleway", "Helvetica Neue", "Verdana", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+}
+.logo-web {
+   color: rgba(77, 90, 229, 1);
+}
+.nav-list .link {
+    font-weight: 500;
+}
+.nav-list .link:hover, .nav-list .link:focus, .address .link:hover {
+    color: rgba(64, 75, 191, 1);
+}
+.nav-list .link:active {
+    text-decoration: underline;
+}
+.order, .footer {
+    /* width: 1440px;
+    height: 600px; */
+    background-color: rgba(46, 47, 66, 1);
+}
+.order, .button {
+    text-align: center;
+}
+.page-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    color: rgba(255, 255, 255, 1);
+    /* background-color: rgba(46, 47, 66, 1); */
+}
+.button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.button:hover, .button:focus {
+    background-color: rgba(64, 75, 191, 1);
+}
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px; 
+}
+.footer .logo, .footer {
+    color: rgba(244, 244, 253, 1)
 }
